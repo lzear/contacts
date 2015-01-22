@@ -1,0 +1,193 @@
+body {
+  margin-top: 10px;
+}
+h1 {
+  display: inline-block;
+  margin: 10px 0 0 25px;
+  vertical-align: middle;
+}
+h2 {
+  height: 40px;
+  margin: 0;
+  overflow: hidden;
+}
+#content {
+  margin: auto;
+  max-width: 960px;
+}
+
+ul {
+  padding: 0 0 0 0.3em;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 200px;
+}
+
+li {
+  z-index: 1;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.9em 0;
+  display: list-item;
+  text-align: -webkit-match-parent;
+  list-style: none;
+  font-size: 1.1em;
+}
+
+li:before, li:after, li a:before, li a:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+.contact ::-webkit-scrollbar {  
+    width: 8px;  
+}  
+.contact  ::-webkit-scrollbar-track {  
+    background-color: #eaeaea;  
+    border-left: 1px solid #ccc;  
+}  
+.contact  ::-webkit-scrollbar-thumb {  
+    background-color: #bbb;  
+}  
+.contact  ::-webkit-scrollbar-thumb:hover {  
+    background-color: #aaa;  
+}  
+#contactList {
+  padding: 0em;
+  margin: 0;
+  float: right;
+  position: relative;
+  left: -50%;
+}
+
+#contactList>div {
+  float: left;
+  position: relative;
+  left: 50%;
+}
+.contact {
+  margin: 5px;
+  float: left;
+  padding: 0.2em;
+  width: 300px;
+  height: 240px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.contact * {
+  vertical-align: middle;
+}
+
+.delete, .edit {
+  height: 35px;
+  width: 40px;
+  padding: 0px;
+  color: #aaa;
+  background-color: rgb( 100,100,100);
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  top: 3px;
+  padding: 0px;
+}
+.delete {
+  right: 3px;
+}
+
+.edit {
+  right: 48px;
+}
+
+.signin, .signout, .register {
+  float: right;
+  margin: 5px;
+}
+
+.signin  *, .signout  *, .register  * {
+  vertical-align: middle;
+}
+
+
+
+#contactBox ul i {
+  margin: 0 0.4em 0 0;
+}
+form {
+  margin: 5px;
+}
+#contactBox form p {
+  position: relative;
+  float: right;
+  margin: 0;
+  padding: .5em 0;
+}
+
+#contactBox form * {
+  vertical-align: middle;
+}
+
+#contactBox form span {
+  margin-right: 10px;
+  color: #444;
+  vertical-align: middle;
+}
+
+#contactBox form input, #contactBox  form textarea, #contactBox  form button, #contactBox  form span, #contactBox  form p {
+  position: relative;
+  float: right;
+  vertical-align: middle;
+}
+
+#contactBox fieldset > div {
+  margin-bottom: .8em;
+}
+
+#contactBox form textarea {
+  resize: vertical;
+}
+
+#contactSearch {
+  background-color: #e5f4ce;
+  padding: 10px;
+}
+#contactEdit {
+  background-color: #adf29c;
+  padding: 10px;
+}
+
+#login {
+  background-color: #adf2bc;
+  padding: 10px;
+}
+
+#register {
+  background-color: #8df2bc;
+  padding: 10px;
+}
+#contactEdit .errormsg, #contactSearch .errormsg {
+	text-align: center;
+
+}
+
+.errormsg {
+  
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: bold;
+  color: #8d5050;
+}
+.marleft {
+  margin-left: 10px;
+}
+
+.cancel {
+  background: #a1915e;
+}
+
+.clearer {
+  clear: both;
+
+}

@@ -5,7 +5,7 @@ PREVIEW :
 	- Screen-shots of the functional version
 		repertory `screenshots`
 	- Sample of the User Interface :
-		NOT THE REAL VERSION : SQL tables are not available on this domain
+		Not the real version : SQL tables are not available on this domain
 		http://antoine.clausse.free.fr/contapp/
 
 INSTALLATION : 
